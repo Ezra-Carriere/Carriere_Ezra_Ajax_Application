@@ -4,13 +4,21 @@
     const hotspots = document.querySelectorAll(".Hotspot");
     const materialTemplate = document.querySelector("#material-template");
     const materialList = document.querySelector("#material-list");
+    const materialCon = document.querySelector("#material-con");
   
     const spinner = `<svg width="50px" height="50px" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
     <circle cx="25" cy="25" r="20" fill="none" stroke-width="5" stroke="#333" stroke-dasharray="31.415, 31.415">
       <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" keyTimes="0;1" values="0 25 25;360 25 25"></animateTransform>
     </circle>
   </svg>`; 
+
+  function showSpinner() {
+
+  }
   
+  function showSpinner() {
+
+  }
 
     function showError(message) {
       peopleCon.innerHTML = `<p class="error">${message}</p>`;
