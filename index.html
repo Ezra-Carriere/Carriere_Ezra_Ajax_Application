@@ -43,22 +43,25 @@
           </div>
         </model-viewer>
       </div>
-
-      <div class="col-span-full">
-        <h2>Materials</h2>
-        <ul id="material-list"></ul>
-
-        <template id="material-template">
-          <li>
-            <h3 class="material-heading"></h3>
-              <p class="material-description"></p>
-          </li>
-
-        </template>
-
-      </div>
-
+      <div id="people-con"></div>
     </div>  
+
+    <div class="col-span-full">
+      <h2>materials</h2>
+      <ul id="material-list"></ul>
+
+      <template id="material-template">
+        <li>
+          <h3 class="material-heading"></h3>
+          <p class="material-description"></p>
+        </li>
+      </template>
+    </div>
+    <template id="hotspot-template">
+      <h2 class="hotspot-title"></h2>
+      <p class="hotspot-description"></p>
+      <img class="hotspot-image" src="" alt="Hotspot Image">
+    </template>
     <!-- Loads <model-viewer> for browsers: -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
